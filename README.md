@@ -1,11 +1,13 @@
 # Wordly Dictionary SPA
 
 ## Table of Contents
-Demo
-Setup
-Testing
-Usage
-Performance Analysis
+
+- [Demo](#demo)  
+- [Setup](#setup)  
+- [Testing](#testing)  
+- [Usage](#usage)  
+- [Performance Analysis](#performanceanalysis)  
+---
 
 ## Demo
 ![wordly demo](./assets/demo.png)
