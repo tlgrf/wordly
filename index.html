@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wordly Dictionary SPA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+  <img src="assets/logo-left.gif" alt="Left Logo" class="logo-img">
+  <h1 class="site-title">Wordly</h1>
+  <img src="assets/logo-right.gif" alt="Right Logo" class="logo-img">
+</header>
+  <header>
+    <form id="search-form" aria-label="Search for a word">
+      <input type="text" id="word-input" placeholder="Enter a word" required aria-required="true">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+    <section id="results" aria-live="polite">
+      <!-- Results will be injected here -->
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>

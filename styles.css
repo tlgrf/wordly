@@ -1,0 +1,71 @@
+/* Base reset */
+* { box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+body { 
+    font-family: sans-serif; 
+    line-height: 1.5; 
+    padding: 1rem; 
+    background: #910024 
+}
+
+header { 
+    font-size: 2rem;
+    text-align: center; 
+    gap: 0.5rem;
+    margin-bottom: 1rem 
+}
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  gap: 0.01rem;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+  flex: 1;
+}
+.logo-img {
+  width: 120px; 
+  height: auto;
+}
+#search-form { display: inline-flex; }
+
+#word-input { padding: 0.5rem; font-size: 1rem; border: 1px solid #000000; border-radius: 4px 0 0 4px; }
+
+#search-form button { padding: 0.5rem 1rem; font-size: 1rem; border: 1px solid #28a745; background: #28a745; color: #000000; border-radius: 0 4px 4px 0; cursor: pointer; }
+
+#search-form button:hover { background: #218838; }
+
+#results { 
+    background: hsl(78, 98%, 21%); 
+    padding: 1rem; 
+    border-radius: 4px; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1) 
+}
+
+.result-word { 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    margin-bottom: 0.5rem 
+}
+
+.part-of-speech { 
+    font-style: italic; 
+    margin-bottom: 1rem 
+}
+
+.definition, .synonyms { margin-bottom: 1rem }
+
+.error { 
+    color: #2b0105; 
+    font-weight: bold
+}
