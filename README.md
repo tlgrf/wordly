@@ -9,7 +9,7 @@ Performance Analysis
 Future Improvements
 
 ## Demo
-(./assets/demo.png)
+![wordly demo](./assets/demo.png)
 
 ## Setup
 1. Clone the repo
