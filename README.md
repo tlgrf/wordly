@@ -6,7 +6,6 @@ Setup
 Testing
 Usage
 Performance Analysis
-Future Improvements
 
 ## Demo
 ![wordly demo](./assets/demo.png)
@@ -27,8 +26,3 @@ Future Improvements
 ## Performance Analysis
 Big-O & File Placement:
 The fetch and DOM update functions run in O(n) where n is the number of definitions + synonyms received. 
-
-## Future Improvements
-- Add pagination for multiple entries
-- Save favorite words to local storage
-- Toggle themes (light/dark)
